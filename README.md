@@ -7,13 +7,28 @@ Description
 The dataset here is a sample of the transactions made in a retail store. The store wants to know better the customer purchase behaviour against different products. Specifically, here the problem is a regression problem where we are trying to predict the dependent variable (the amount of purchase) with the help of the information contained in the other variables. Dataset of more than 500000 observations about the black Friday in a retail store, it contains different kinds of variables either numerical or categorical.
 
 User_ID | User ID
+
 Product_ID | Product ID
+
 Gender | Sex of User
+
 Age | Age in bins
+
 Occupation | Occupation
-City_Category | Category of the City (A,B,C) Stay_In_Current_City_Years | Number of years stay in current city Marital_Status | Marital Status
+
+City_Category | Category of the City (A,B,C) 
+
+Stay_In_Current_City_Years | Number of years stay in current city 
+
+Marital_Status | Marital Status
+
 Product_Category_1 | Product Category
-Product_Category_2 | Product may belongs to other category also Product_Category_3 | Product may belongs to other category also Purchase | Purchase Amount
+
+Product_Category_2 | Product may belongs to other category also 
+
+Product_Category_3 | Product may belongs to other category also 
+
+Purchase | Purchase Amount
 
 Your hw has two parts. First part requires building a linear regression model, second part requires building a classification model.
 
